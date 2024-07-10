@@ -46,7 +46,7 @@ const ChatInterface = () => {
 
   return (
     <div className="flex flex-col h-screen max-w-2xl mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Chat with ElizaNode</h1>
+      <h1 className="text-2xl font-bold mb-4">Chat with Eliza</h1>
       <div className="flex-grow overflow-auto mb-4 border border-gray-300 rounded p-2">
         {messages.map((message, index) => (
           <div key={index} className={`mb-2 ${message.role === 'user' ? 'text-right' : 'text-left'}`}>
@@ -57,7 +57,7 @@ const ChatInterface = () => {
             </span>
           </div>
         ))}
-        {isLoading && <div className="text-center text-gray-500">ElizaNode is thinking...</div>}
+        {isLoading && <div className="text-center text-gray-500">Eliza is thinking...</div>}
         <div ref={messagesEndRef} />
       </div>
       <form onSubmit={handleSubmit} className="flex">
