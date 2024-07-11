@@ -1,10 +1,10 @@
 # ElizaNode Chat Application
 
-This project is a full-stack application that implements a chat interface for interacting with ElizaNode, a JavaScript implementation of the classic ELIZA chatbot. The application uses a React frontend and an Express.js backend that provides an OpenAI-compatible API for ElizaNode.
+This project is a full-stack application that implements a chat interface for interacting with ELIZA, a JavaScript implementation of the classic ELIZA chatbot. The application uses a React frontend and an Express.js backend that provides an OpenAI-compatible API for ELIZA.
 
 ## Features
 
-- Chat interface for interacting with ElizaNode
+- Chat interface for interacting with ELIZA
 - React-based frontend with Tailwind CSS for styling
 - Express.js backend serving both the API and the React app
 - OpenAI-compatible API for easy integration and potential future expansion
@@ -22,8 +22,8 @@ Follow these steps to get your development environment set up:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/elizanode-chat.git
-   cd elizanode-chat
+   git clone https://github.com/spullara/elizallm
+   cd elizallm
    ```
 
 2. Install server dependencies:
